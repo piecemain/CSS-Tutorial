@@ -4,13 +4,17 @@
 }
 
 header {
-  text-align: center;
+  /*  text-align: center;
   background-color: darkblue;
-  color: white;
+  color: white;*/
+  position: sticky;
+  top: 0;
+  opacity:0.9;
 }
 
 main {
   text-align: center;
+  
 }
 
 .container {
@@ -27,7 +31,9 @@ main {
 }
 
 img {
-  margin-top: 24px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 footer {
